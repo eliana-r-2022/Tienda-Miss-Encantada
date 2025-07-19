@@ -1,0 +1,37 @@
+.main-contenedor {
+  padding: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-image: url('/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.carousel-wrapper {
+  width: 100%;          /* ocupa el 90% del ancho de la pantalla */
+  max-width: 1400px;   /* límite en pantallas muy grandes */
+  margin: 2rem auto;
+}
+
+.carousel-image {
+  width: 100%;
+  aspect-ratio: 7 / 4; /* o 4 / 1, según qué tan "banner" lo querés */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 6px;
+}
+
+.imagenes-fila {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.imagen-rounded {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

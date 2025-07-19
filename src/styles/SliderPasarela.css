@@ -1,0 +1,57 @@
+.slider-pasarela {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  width: max-content;
+  animation: scrollPasarela 25s linear infinite;
+}
+
+.pasarela-img {
+  width: 280px;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: 16px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Animación */
+@keyframes scrollPasarela {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pausar al pasar el mouse */
+.slider-pasarela:hover .slider-track {
+  animation-play-state: paused;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pasarela-img {
+    width: 180px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pasarela-img {
+    width: 140px;
+    height: 180px;
+  }
+}
+
