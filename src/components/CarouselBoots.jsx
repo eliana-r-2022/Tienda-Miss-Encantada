@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import "../styles/SliderPasarela.css";
 
 function CarouselBoots() {
   return (
@@ -7,7 +8,7 @@ function CarouselBoots() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="/image-01.png"
+            src="/img-carusel-01.jpg"
             alt="Primera imagen"
           />
           <Carousel.Caption>
@@ -19,7 +20,7 @@ function CarouselBoots() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="/image-02.png"
+            src="/img-carusel-02.jpg"
             alt="Segunda imagen"
           />
           <Carousel.Caption>
@@ -31,7 +32,7 @@ function CarouselBoots() {
         <Carousel.Item>
           <img
             className="carousel-image"
-            src="/image-03.png"
+            src="/img-carusel-03.jpg"
             alt="Tercera imagen"
           />
           <Carousel.Caption>
