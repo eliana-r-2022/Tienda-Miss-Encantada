@@ -4,7 +4,6 @@ import Card from "./Card";
 import { CarritoContext } from "../contexts/CarritoContext";
 import { useProductContext } from "../contexts/ProductContext";
 import { Helmet } from "react-helmet-async";
-//import { Row, Col } from "react-bootstrap";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import CardProducto from "./Card";
